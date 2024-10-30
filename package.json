@@ -1,0 +1,19 @@
+{
+	"name": "simple-crud",
+	"version": "1.0.0",
+	"description": "Simple Nodejs crud",
+	"main": "app.js",
+	"type": "module",
+	"author": "Curious",
+	"keywords": [],
+	"scripts": {
+		"dev": "nodemon ./src/app.js"
+	},
+	"devDependencies": {
+		"nodemon": "3.1.7"
+	},
+	"dependencies": {
+		"dotenv": "16.4.5",
+		"uuid": "11.0.0"
+	}
+}
